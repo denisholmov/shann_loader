@@ -1,0 +1,114 @@
+@media(max-width: 768px){
+
+	.container{
+		max-width: 750px;
+	}
+
+	.header {
+		max-width: 750px;
+	}
+
+	.header__logo img {
+		width: 123px;
+		vertical-align: middle;
+	}
+
+	
+
+	.header__btn_phone {
+		width: 45px;
+		height: 45px;
+		background-color: #cfebfe;
+		
+	}
+
+	.header__btn_phone img{
+		width: 25px;
+		height: auto;
+	
+	}
+	
+
+
+
+
+
+	.block-text{
+		line-height: 30px;
+	}
+
+	.block-text__title {
+		margin-bottom: 15px;
+
+		font-size: 33px;
+		}
+		
+		
+		
+		.block-text__text{
+			
+		font-size: 16px;
+	
+		}
+
+		/* get-started -----------*/
+
+.get-started {
+	padding-bottom: 80px;
+}
+
+.get-started__container{
+
+	
+}
+
+.get-started__content {
+	margin-top: 400px;
+	max-width: 430px;
+	margin-left: 200px;
+
+}
+
+.get-started__offer{
+	max-width: 423px;
+	margin-top: 40px;
+	gap: 10px;
+	font-size: 14px;
+	flex-direction: column;
+}
+
+.get-started__call-us{
+	display: flex;
+	padding: 5px 10px;
+	max-width: 425px;
+
+	font-size: 13px;
+
+
+	align-items: center;
+}
+
+.get-started__call-us span{
+	align-items: center;
+}
+
+
+.get-started__button {
+	padding: 10px 30px;
+	max-width: 423px;
+	font-size: 13px;
+
+}
+	.get-started__image {
+		position: absolute;
+		top: -400px;
+		left: -65px;
+	
+	}
+	
+	.get-started__image img {
+		width: 700px;
+	
+	}
+
+}

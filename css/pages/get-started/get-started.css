@@ -1,0 +1,57 @@
+.get-started {
+	margin-bottom: 255px;
+}
+
+
+.get-started__container {
+	position: relative;
+}
+
+.get-started__content {
+	margin-top: 170px;
+
+	max-width: 850px;
+}
+
+.get-started__offer{
+	display: flex;
+	gap: 15px;
+	margin-top: 70px;
+}
+
+.get-started__call-us{
+	padding: 18px 25px;
+	max-width: 425px;
+	border: 2px dashed var(--miyazaki-verdant);
+	border-radius: 5px;
+
+	font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+	align-items: center;
+}
+
+.get-started__call-us img {
+margin-right: 5px;
+}
+
+.get-started__button {
+	padding: 15px 40px;
+
+	font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+
+.get-started__image {
+	position: absolute;
+	top: -50px;
+	right: -75px;
+
+}
+
+.get-started__image img {
+	width: 1020px;
+height: 600px;
+}

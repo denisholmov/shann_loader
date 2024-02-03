@@ -1,0 +1,24 @@
+.block-text{
+	line-height: 65px;
+}
+
+.block-text__title {
+	font-family: Gilroy, sans-serif;
+font-size: 66px;
+
+margin-bottom: 30px;
+
+font-weight: 700;
+color: var(--navi-blazer);
+}
+
+.block-text__title_blue{
+	color: var(--sky-magritte);
+}
+
+.block-text__text{
+	font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
