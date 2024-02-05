@@ -1,5 +1,5 @@
 .get-started {
-	margin-bottom: 255px;
+	margin-bottom: 225px;
 }
 
 
@@ -16,7 +16,7 @@
 .get-started__offer{
 	display: flex;
 	gap: 15px;
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
 .get-started__call-us{

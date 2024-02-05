@@ -1,12 +1,12 @@
 .block-text{
-	line-height: 65px;
+	line-height: 60px;
 }
 
 .block-text__title {
 	font-family: Gilroy, sans-serif;
 font-size: 66px;
 
-margin-bottom: 30px;
+margin-bottom: 25px;
 
 font-weight: 700;
 color: var(--navi-blazer);

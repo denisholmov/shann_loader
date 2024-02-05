@@ -34,20 +34,20 @@
 
 
 	.block-text{
-		line-height: 30px;
+		line-height: 45px;
 	}
 
 	.block-text__title {
 		margin-bottom: 15px;
 
-		font-size: 33px;
+		font-size: 55px;
 		}
 		
 		
 		
 		.block-text__text{
 			
-		font-size: 16px;
+		font-size: 25px;
 	
 		}
 
@@ -64,13 +64,15 @@
 
 .get-started__content {
 	margin-top: 400px;
-	max-width: 430px;
-	margin-left: 200px;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
 .get-started__offer{
-	max-width: 423px;
+	max-width: 750px;
+	width: 100%;
 	margin-top: 40px;
 	gap: 10px;
 	font-size: 14px;
@@ -79,24 +81,24 @@
 
 .get-started__call-us{
 	display: flex;
-	padding: 5px 10px;
-	max-width: 425px;
+	justify-content: center;
+	padding: 15px 10px;
+	max-width: 750px;
 
-	font-size: 13px;
-
-
-	align-items: center;
+	font-size: 16px;
 }
 
 .get-started__call-us span{
 	align-items: center;
+	
+	
 }
 
 
 .get-started__button {
-	padding: 10px 30px;
-	max-width: 423px;
-	font-size: 13px;
+	padding: 18px 30px;
+	max-width: 750px;
+	font-size: 16px;
 
 }
 	.get-started__image {

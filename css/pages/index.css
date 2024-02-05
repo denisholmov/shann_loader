@@ -3,6 +3,7 @@
 @import url('./header/header.css');
 @import url('./get-started/get-started.css');
 @import url('./block-text/block-text.css');
+@import url('./evolution-tech/evolution-tech.css');
 
 @import url("./media/media1366.css") (max-width: 1366px);
 @import url("./media/media1000.css") (max-width: 1000px);

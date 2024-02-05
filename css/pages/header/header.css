@@ -15,6 +15,7 @@
 
 .header__logo img {
 	width: 164px;
+	vertical-align: middle;
 }
 
 .header__list {
