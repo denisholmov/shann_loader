@@ -1,0 +1,41 @@
+.engine {
+  max-width: 1840px;
+  margin: 0 auto;
+  border-radius: 60px;
+  background-color: var(--sky-magritte);
+}
+
+.engine__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 82px 0;
+}
+
+.engine__content {
+  padding-top: 56px;
+}
+
+.engine__title {
+  margin-bottom: 40px;
+
+  font-size: 68px;
+  font-family: Gilroy, sans-serif;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.engine__characteristics li {
+  margin-bottom: 25px;
+  margin-left: 15px;
+  list-style-type: disc;
+
+  font-size: 24px;
+  font-family: Gilroy, sans-serif;
+  font-weight: medium;
+  color: var(--white);
+}
+
+.engine__image img {
+  width: 629px;
+  height: auto;
+}

@@ -1,81 +1,84 @@
 /* header -------------*/
 
-@media(max-width: 1366px){
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1200px;
+  }
 
-	.container{
-		max-width: 1200px;
-	}
+  .header {
+    max-width: 1200px;
+  }
 
-	.header {
-		max-width: 1200px;
-	}
+  /* block-text----------- */
+  .block-text {
+    line-height: 50px;
+  }
 
+  .block-text__title {
+    font-size: 46px;
+  }
 
-	/* block-text----------- */
-	.block-text{
-		line-height: 50px;
-	}
-	
-	.block-text__title {
-	font-size: 46px;
-	}
-	
-	
-	
-	.block-text__text{
-		
-	font-size: 20px;
+  .block-text__text {
+    font-size: 20px;
 
-	font-weight: 500;
-	/* line-height: 30px; */
-	}
-	
-	
-	/* get-started -----------*/
+    font-weight: 500;
+    /* line-height: 30px; */
+  }
 
-	.get-started {
-		margin-bottom: 255px;
-	}
-	
-	.get-started__content {
-		max-width: 600px;
-	}
-	
-	.get-started__offer{
-		width: 700px;
-		gap: 10px;
-		font-size: 14px;
-		
-	}
-	
-	.get-started__call-us{
-		padding: 10px 25px;
-		max-width: 425px;
-	
-		font-size: 13px;
-	
-	
-		align-items: center;
-	}
-	
-	
-	
-	.get-started__button {
-		padding: 10px 30px;
-	
-		font-size: 13px;
-	
-	}
-	
-	.get-started__image {
-		top: -30px;
-		right: -55px;
-	}
-	
-	.get-started__image img {
-		width: 800px;
-	height: auto;
-	}
+  /* get-started -----------*/
+
+  .get-started {
+    margin-bottom: 255px;
+  }
+
+  .get-started__content {
+    max-width: 600px;
+  }
+
+  .get-started__offer {
+    width: 700px;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .get-started__call-us {
+    padding: 10px 25px;
+    max-width: 425px;
+
+    font-size: 13px;
+
+    align-items: center;
+  }
+
+  .get-started__button {
+    padding: 10px 30px;
+
+    font-size: 13px;
+  }
+
+  .get-started__image {
+    top: -30px;
+    right: -55px;
+  }
+
+  .get-started__image img {
+    width: 800px;
+    height: auto;
+  }
+
+  /* evolution-tech--------------------- */
+
+  .evolution-tech {
+    max-width: 1345px;
+  }
+
+  /* engine ------------------------- */
+
+  .engine {
+    max-width: 1345px;
+  }
+
+  .engine__image img {
+    width: 529px;
+  }
 }
-
-

@@ -1,94 +1,84 @@
-.evolution-tech{
-	max-width: 1840px;
-	margin: 0 auto;
-	border-radius: 60px;
-	background-color: #ffffff;
-
+.evolution-tech {
+  max-width: 1840px;
+  margin: 0 auto;
+  border-radius: 60px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
 }
 
-.evolution-tech__content{
-	margin: 0 auto;
-	padding: 140px 0;
+.evolution-tech__content {
+  margin: 0 auto;
+  padding: 140px 0;
 }
 
 .block-text__evolution-tech {
-	margin-bottom: 60px;
-	text-align: center;
-}
-
-.loader{
-
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .loader__list {
-	display: flex;
-	gap: 100px;
-	justify-content: center;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
 
-.loader__item{
-	position: relative;
+.loader__item {
+  position: relative;
 }
 
 .loader__btn-item {
-	position: relative;
-	width: 30px;
-	height: auto;
-	cursor: pointer;
-
+  position: relative;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
 }
 
 .loader__btn-item_1 {
-	position: absolute;
-	top: 80px;
-	left: 18px;
-
+  position: absolute;
+  top: 80px;
+  left: 18px;
 }
 
 .loader__btn-item_2 {
-	position: absolute;
-	top: 317px;
-	left: 124px;
+  position: absolute;
+  top: 317px;
+  left: 124px;
 }
 
 .loader__btn-item_3 {
-	position: absolute;
-	top: 8px;
-	left: 187px;
+  position: absolute;
+  top: 8px;
+  left: 187px;
 }
 
 .loader__btn-item_4 {
-	position: absolute;
-	top: 390px;
-	left: 52px;
+  position: absolute;
+  top: 390px;
+  left: 52px;
 }
 
-
-
-
-.inf{
-	display: none;
-	justify-content: center; 
-	align-items: center; 
-	position: absolute;
-	top: 0;
-	left: 310px;
-	max-width: 228px;
-	width: 100%;
-	height: 90px;
-	border-radius: 15px;
-	background-color: var(--white-solid);
-	
+.inf {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 310px;
+  max-width: 228px;
+  width: 100%;
+  height: 90px;
+  border-radius: 15px;
+  background-color: var(--white-solid);
 }
 
-.inf__text{
-	font-size: 16px;
-	font-weight: 600;
-	color: var(--navi-blazer);
+.inf__text {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--navi-blazer);
 }
 
-.inf:after{
-	content: "";
+.inf:after {
+  content: "";
   position: absolute;
   top: 18px;
   left: -18px;
@@ -98,6 +88,6 @@
   transform: rotate(-90deg);
 }
 
-.active{
-	display: flex;
+.active {
+  display: flex;
 }

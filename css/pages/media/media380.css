@@ -59,7 +59,7 @@
 			/* get-started -----------*/
 	
 	.get-started {
-		/* margin-bottom: 255px; */
+		margin-bottom: 80px;
 	}
 	
 	.get-started__container{
@@ -116,4 +116,75 @@
 		
 		}
 	
+		/* evolution-tech--------------------- */
+
+.evolution-tech{
+	max-width: 370px;
+	border-radius: 15px;
+}
+
+.evolution-tech__content{
+	padding: 50px 0;
+	text-align: center;
+	
+}
+
+.block-text__text{
+max-width: 269px;
+margin: 0 auto;
+line-height: 20px;
+}
+
+.block-text__evolution-tech {
+	margin-bottom: 40px;
+}
+
+
+
+.loader__list {
+	
+	flex-direction: column;
+	gap: 45px;
+	
+}
+
+.loader__btn-item_1 {
+	position: absolute;
+	top: 80px;
+	left: 51px;
+
+}
+
+.loader__btn-item_2 {
+	position: absolute;
+	top: 317px;
+	left: 157px;
+}
+
+.loader__btn-item_3 {
+	position: absolute;
+	top: 8px;
+	left: 220px;
+}
+
+.loader__btn-item_4 {
+	position: absolute;
+	top: 390px;
+	left: 85px;
+}
+
+.inf{
+	top: 64px;
+	left: 71px;
+	max-width: 197px;
+}
+
+.inf:after{
+	
+  top: -18px;
+  left: 154px;
+ 
+  transform: rotate(0);
+}
+
 	}

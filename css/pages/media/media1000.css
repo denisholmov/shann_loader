@@ -1,90 +1,105 @@
-@media(max-width: 998px){
+@media (max-width: 998px) {
+  .container {
+    max-width: 900px;
+  }
 
-	.container{
-		max-width: 900px;
-	}
+  .header {
+    max-width: 900px;
+  }
 
-	.header {
-		max-width: 900px;
-	}
+  .get-started__content {
+    margin-top: 170px;
 
-	.get-started__content {
-		margin-top: 170px;
-	
-		max-width: 850px;
-	}
+    max-width: 850px;
+  }
 
-	/* --------------------------- */
+  /* --------------------------- */
 
-	.block-text{
-		line-height: 35px;
-	}
+  .block-text {
+    line-height: 35px;
+  }
 
-	.block-text__title {
-		margin-bottom: 15px;
+  .block-text__title {
+    margin-bottom: 15px;
 
-		font-size: 36px;
-		}
-		
-		
-		
-		.block-text__text{
-			
-		font-size: 15px;
-	
-		}
+    font-size: 36px;
+  }
 
-/* --------------------------------------------- */
+  .block-text__text {
+    font-size: 15px;
+  }
 
-/* get-started -----------*/
+  /* --------------------------------------------- */
 
-.get-started {
-	/* margin-bottom: 255px; */
-}
+  /* get-started -----------*/
 
-.get-started__content {
-	max-width: 500px;
-}
+  .get-started {
+    /* margin-bottom: 255px; */
+  }
 
-.get-started__offer{
-	margin-top: 40px;
-	gap: 10px;
-	font-size: 14px;
-	
-}
+  .get-started__content {
+    max-width: 500px;
+  }
 
-.get-started__call-us{
-	display: flex;
-	padding: 5px 10px;
-	max-width: 425px;
+  .get-started__offer {
+    margin-top: 40px;
+    gap: 10px;
+    font-size: 14px;
+  }
 
-	font-size: 13px;
+  .get-started__call-us {
+    display: flex;
+    padding: 5px 10px;
+    max-width: 425px;
 
+    font-size: 13px;
 
-	align-items: center;
-}
+    align-items: center;
+  }
 
-.get-started__call-us span{
-	align-items: center;
-}
+  .get-started__call-us span {
+    align-items: center;
+  }
 
+  .get-started__button {
+    padding: 10px 30px;
 
-.get-started__button {
-	padding: 10px 30px;
+    font-size: 13px;
+  }
+  .get-started__image {
+    position: absolute;
+    top: -50px;
+    right: -35px;
+  }
 
-	font-size: 13px;
+  .get-started__image img {
+    width: 650px;
+    height: auto;
+  }
 
-}
-	.get-started__image {
-		position: absolute;
-		top: -50px;
-		right: -35px;
-	
-	}
-	
-	.get-started__image img {
-		width: 650px;
-	height: auto;
-	}
+  /* evolution-tech--------------------- */
 
+  .evolution-tech {
+    max-width: 958px;
+  }
+
+  .engine {
+    max-width: 958px;
+  }
+
+  .engine__title {
+    font-size: 45px;
+  }
+
+  .engine__characteristics li {
+    font-size: 18px;
+    font-family: Gilroy, sans-serif;
+    font-weight: medium;
+    color: var(--white);
+  }
+
+  .engine__image img {
+    width: 429px;
+    height: auto;
+  }
 }
